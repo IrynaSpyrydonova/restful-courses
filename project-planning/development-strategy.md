@@ -1,4 +1,4 @@
-# Project name
+# JavaScript restful-courses
 
 ...
 
@@ -20,16 +20,69 @@
 
 ---
 
-## 1. Initialize Application
+## 1. User story : Initialize Application
 
-__As a user I want to see the initial page when I load the site__
+**As a user I want to see the initial page when I load the site**
 
-- _Given [context] when [a specific action is performed] then [a set of consequences should occur]__
+**Assigned to**
+
+- \_Given [context] when [a specific action is performed] then [a set of consequences should occur]\_\_
+
+### REPO
+
+- This user story is developed on branch `initialize-application`.
+
+- This branch is merged to `master` branch after completion.
+
+### Task A
+
+
+### Task B
+
+
+### Task C...
+
+
+
+---
+
+## 2. User story : GET
+
+**As a user I would like be able to**
+
+**Assigned to Murielle**
+
+- \_Given [context] when [a specific action is performed] then [a set of consequences should occur]\_\_
+
+### REPO
+
+- This user story is developed on branch `get`.
+
+- This branch is merged to `master` branch after completion.
+
+### Task A: 
+
+
+### Task B: 
+
+
+### Task C: 
+
+
+---
+
+## 3. User story : PUT
+
+**As a user I should be able to**
+
+**Assigned to Fatih**
+
+- \_Given [context] when [a specific action is performed] then [a set of consequences should occur]\_\_
 - ...
 
 ### REPO
 
-- This user story is developed on branch `_`.
+- This user story is developed on branch `put`.
 - This branch is merged to `master` branch after completion.
 
 ### Task A
@@ -40,4 +93,68 @@ __As a user I want to see the initial page when I load the site__
 
 ---
 
-## ...
+## 4. User story : DELETE
+
+**As a user I should be able to see the added items in todo list**
+
+**Assigned to Yared**
+
+- \_Given [context] when [a specific action is performed] then [a set of consequences should occur]\_\_
+- ...
+
+### REPO
+
+- This user story is developed on branch `delete`.
+- This branch is merged to `master` branch after completion.
+
+### Task A
+
+### Task B
+
+### Task ...
+
+---
+
+## 5. User story : POST
+
+**As a user I should be able to**
+
+
+**Assigned to Iryna**
+
+
+### REPO
+
+- This user story is developed on branch `post`.
+- This branch is merged to `master` branch after completion.
+
+### Task A
+
+### Task B
+
+### Task ...
+
+---
+
+
+## 7. Finishing Touches
+
+- Validate code to check for any last mistakes
+
+**Assigned to Razvan**
+
+- \_Given [context] when [a specific action is performed] then [a set of consequences should occur]\_\_
+- ...
+
+### REPO
+
+- This user story is developed on branch `final-touch`.
+- This branch is merged to `master` branch after completion.
+
+### Task A
+
+### Task B
+
+### Task ...
+
+---
