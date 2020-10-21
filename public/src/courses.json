@@ -9,7 +9,7 @@
   },
   {
     "id": 3,
-    "name": "course3"
+    "name": "edited course3"
   },
   {
     "id": 4,
@@ -26,5 +26,13 @@
   {
     "id": 7,
     "name": "new course7"
+  },
+  {
+    "id": 8,
+    "name": "edited course8"
+  },
+  {
+    "id": 9,
+    "name": "edited course9"
   }
 ]
