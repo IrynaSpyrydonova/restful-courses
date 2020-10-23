@@ -48,11 +48,9 @@
 
 ## 2. User story : GET
 
-**As a user I would like be able to**
+**As a user I would like be able to connect myself the given database and to have some information**
 
 **Assigned to Murielle**
-
-- \_Given [context] when [a specific action is performed] then [a set of consequences should occur]\_\_
 
 ### REPO
 
@@ -60,13 +58,10 @@
 
 - This branch is merged to `master` branch after completion.
 
-### Task A: 
-
-
-### Task B: 
-
-
-### Task C: 
+### Tasks : 
+- add get method
+- first connect to the database
+- read the database
 
 
 ---
