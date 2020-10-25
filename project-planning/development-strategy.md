@@ -44,11 +44,9 @@
 
 ## 2. User story : GET
 
-**As a user I would like be able to**
+**As a user I would like be able to connect myself the given database and to have some information**
 
 **Assigned to Murielle**
-
-- \_Given [context] when [a specific action is performed] then [a set of consequences should occur]\_\_
 
 ### REPO
 
@@ -56,9 +54,11 @@
 
 - This branch is merged to `master` branch after completion.
 
-### Task A:
+### Tasks : 
+- add get method
+- first connect to the database
+- read the database
 
-### Task B:
 
 ### Task C:
 
@@ -107,20 +107,25 @@
 
 ## 5. User story : POST
 
-**As a user I should be able to**
+**As a user I should be able to add new courses**
+
 
 **Assigned to Iryna**
+
 
 ### REPO
 
 - This user story is developed on branch `post`.
 - This branch is merged to `master` branch after completion.
 
-### Task A
+### Task A: 
+read data from json file
 
-### Task B
+### Task B:
+add new course into existing courses
 
-### Task ...
+### Task C: 
+write updated data into json file
 
 ---
 

@@ -4,12 +4,25 @@ const Joi = require('joi');
 const express = require('express');
 const fs = require('fs');
 const app = express();
+const bodyParser = require('body-parser');
 
 app.use(express.json());
+app.use(bodyParser.json());
 
 // Path to the file
 COURSES_PATH =  __dirname + '/' + 'courses.json';
 
+
+// GET METHOD
+app.get('/', (req, res) => {
+    fs.readFile(COURSES_PATH, 'utf8', (err, data) => {
+        if (err) {
+            throw err;
+        }
+    
+        res.send(JSON.parse(data));
+    });
+});
 
 
 // POST METHOD
@@ -40,7 +53,7 @@ app.post('/api/courses', (req, res)=>{
 app.put('/api/courses/:id', (req, res)=>{
     const { error } = validateCourse(req.body);
     if(error) return res.status(400).send(error.details[0].message);
-
+  
     fs.readFile(COURSES_PATH, 'utf-8', (err, data) => {
         if (err) return res.status(500).send(err.message);
         let courses = JSON.parse(data);
