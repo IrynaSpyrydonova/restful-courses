@@ -36,9 +36,29 @@ app.post('/api/courses', (req, res)=>{
     });
 });
 
+// PUT METHOD
+app.put('/api/courses/:id', (req, res)=>{
+    const { error } = validateCourse(req.body);
+    if(error) return res.status(400).send(error.details[0].message);
 
+    fs.readFile(COURSES_PATH, 'utf-8', (err, data) => {
+        if (err) return res.status(500).send(err.message);
+        let courses = JSON.parse(data);
+        const course =courses.find(c => c.id === parseInt(req.params.id))
 
-
+        if(!course) res.status(404).send('The course with the given ID was not found!');
+        
+        course.name=req.body.name;
+        res.send(course);
+        
+        let updatedData = JSON.stringify(courses, null, 2);
+        
+        fs.writeFile(COURSES_PATH, updatedData, (err) => {
+            if (err) return res.status(500).send(err.message);
+            console.log('File is updated');
+        });
+    })
+})
 
 // VALIDATION
 function validateCourse(course){

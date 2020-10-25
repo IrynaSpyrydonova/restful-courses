@@ -36,13 +36,9 @@
 
 ### Task A
 
-
 ### Task B
 
-
 ### Task C...
-
-
 
 ---
 
@@ -60,36 +56,30 @@
 
 - This branch is merged to `master` branch after completion.
 
-### Task A: 
+### Task A:
 
+### Task B:
 
-### Task B: 
-
-
-### Task C: 
-
+### Task C:
 
 ---
 
 ## 3. User story : PUT
 
-**As a user I should be able to**
+**As a user I should be able to edit a course name using 'pull method'**
 
 **Assigned to Fatih**
 
-- \_Given [context] when [a specific action is performed] then [a set of consequences should occur]\_\_
-- ...
-
 ### REPO
 
-- This user story is developed on branch `put`.
+- This user story is developed on branch `put method`.
 - This branch is merged to `master` branch after completion.
 
-### Task A
+### Tasks
 
-### Task B
-
-### Task ...
+- added dependencies
+- added PULL method
+- used fs.readFile and fs.writeFile in order to edit a course in the course.json file
 
 ---
 
@@ -119,9 +109,7 @@
 
 **As a user I should be able to**
 
-
 **Assigned to Iryna**
-
 
 ### REPO
 
@@ -135,7 +123,6 @@
 ### Task ...
 
 ---
-
 
 ## 7. Finishing Touches
 
