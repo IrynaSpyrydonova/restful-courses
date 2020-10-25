@@ -32,7 +32,7 @@
 ## About The Project
 
 
-![Project ]()
+
 
 The main idea of this project is to practice and understand the concepts of back-end using `Node.js`  with `REST API` to create web-apps.
 
@@ -88,12 +88,12 @@ Distributed under the MIT License. See [LICENSE](https://github.com/IrynaSpyrydo
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [contributors-shield]: https://img.shields.io/badge/1-Contributors%20-brightgreen
-[contributors-url]: https://github.com/IrynaSpyrydonova/portfolio-GitHub-API/graphs/contributors
+[contributors-url]: https://github.com/IrynaSpyrydonova/restful-courses/graphs/contributors
 [forks-shield]: https://img.shields.io/badge/-Forks-blue
-[forks-url]: https://github.com/IrynaSpyrydonova/portfolio-GitHub-API/network
+[forks-url]: https://github.com/IrynaSpyrydonova/restful-courses/network
 [issues-shield]: https://img.shields.io/badge/-ISSUES-green
-[issues-url]: https://github.com/IrynaSpyrydonova/portfolio-GitHub-API/issues
+[issues-url]: https://github.com/IrynaSpyrydonova/restful-courses/issues
 [pr-shield]: https://img.shields.io/badge/-Pull%20Requests%20-blue
-[pr-url]: https://github.com/IrynaSpyrydonova/portfolio-GitHub-API/pulls
+[pr-url]: https://github.com/IrynaSpyrydonova/restful-courses/pulls
 [license-shield]: https://img.shields.io/badge/-LICENSE-brightgreen
-[license-url]: https://github.com/IrynaSpyrydonova/portfolio-GitHub-API/blob/master/LICENSE
+[license-url]: https://github.com/IrynaSpyrydonova/restful-courses/blob/master/LICENSE
