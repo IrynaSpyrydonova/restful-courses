@@ -40,15 +40,16 @@ app.post('/api/courses', (req, res)=>{
 
 
 // GET METHOD
-app.get('/', (req, res)=>{
-    const { error } = validateCourse(req.body);
-    if(error) return res.status(400).send(error.details[0].message);
+app.get('/', (req, res) => {
+    fs.readFile(COURSES_PATH, 'utf8', (err, data) => {
+        if (err) {
+            throw err;
+        }
     
-    res.send("server is working");
-    res.setHeader("Content-Type", "text/html");;
-    let filecourses = fs.readFile(COURSES_PATH, { encoding: 'utf-8' });
-    res.send(JSON.parse(filecourses));
+        res.send(JSON.parse(data));
+    });
 });
+
 
 
 
